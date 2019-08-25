@@ -26,6 +26,6 @@ node {
          //deploy contextPath: null, onFailure: false, war: 'ubuntu@54.175.109.197:/opt/apache-tomcat-7.0.96/webapps -u ubuntu -p root'
          //sh 'cd /var/lib/jenkins/workspace/Scripted-Pipeline/target'
         //deploy adapters: [tomcat7(credentialsId: '4e201b56-24eb-4f06-b184-d780b8654784', path: '', url: 'https://3.87.216.51:8080')], contextPath: null, war: 'jpet.war'
-        sh 'scp /var/lib/jenkins/workspace/Scripted-Pipeline/target/*.war ubuntu@3.84.15.222:/opt/apache-tomcat-7.0.96/webapps -p root'
+        sh 'scp /var/lib/jenkins/workspace/Scripted-Pipeline/target/*.war ubuntu@3.84.15.222:/opt/apache-tomcat-7.0.96/webapps'
     }
      }
