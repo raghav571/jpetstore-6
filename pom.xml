@@ -54,8 +54,17 @@
       <name>Mybatis GitHub Pages</name>
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
+    <repository>
+           <id>golnexus</id>
+	    <name>golnexus</name>
+           <url>http://3.84.15.7:8081/nexus/content/repositories/golnexus/</url>
+    </repository>
+    <snapshotRepository>
+           <id>Nexus</id>
+	    <name>Nexus</name>
+           <url>http://3.84.15.7:8081/nexus/content/repositories/Nexus/</url>
+    </snapshotRepository
   </distributionManagement>
-
   <dependencies>
     <dependency>
       <groupId>org.mybatis</groupId>
