@@ -57,12 +57,12 @@
     <repository>
            <id>golnexus</id>
 	    <name>golnexus</name>
-           <url>http://3.84.15.7:8081/nexus/content/repositories/golnexus/</url>
+           <url>http://3.80.156.159:8081/nexus/content/repositories/golnexus/</url>
     </repository>
     <snapshotRepository>
            <id>Nexus</id>
 	    <name>Nexus</name>
-           <url>http://3.84.15.7:8081/nexus/content/repositories/Nexus/</url>
+           <url>http://3.80.156.159:8081/nexus/content/repositories/Nexus/</url>
 	  </snapshotRepository>
   </distributionManagement>
   <dependencies>
@@ -171,6 +171,12 @@
       <artifactId>spring-test</artifactId>
       <version>${spring.version}</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-deploy-plugin</artifactId>
+	<version>3.0.0-M1</version>
+	<type>maven-plugin</type>
     </dependency>
   </dependencies>
 
