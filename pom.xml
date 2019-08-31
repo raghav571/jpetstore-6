@@ -63,7 +63,7 @@
            <id>Nexus</id>
 	    <name>Nexus</name>
            <url>http://3.84.15.7:8081/nexus/content/repositories/Nexus/</url>
-    </snapshotRepository
+	  </snapshotRepository>
   </distributionManagement>
   <dependencies>
     <dependency>
