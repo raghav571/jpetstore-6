@@ -258,6 +258,16 @@
                 </includes>
               </configuration>
             </plugin>
+	    <plugin>
+      		<groupId>org.sonatype.plugins</groupId>
+      		<artifactId>nexus-staging-maven-plugin</artifactId>
+      		<version>1.6.6</version>
+      		<extensions>true</extensions>
+      		<configuration>
+        		<serverId>nexus</serverId>
+        		<nexusUrl>http://3.80.156.159:8081/nexus/</nexusUrl>
+      		</configuration>
+	    </plugin>
             <plugin>
               <groupId>org.jacoco</groupId>
               <artifactId>jacoco-maven-plugin</artifactId>
